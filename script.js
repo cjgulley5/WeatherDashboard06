@@ -23,7 +23,7 @@ function initPage() {
         .then(function(response){
             console.log(response);
 
-     // Current conditions   
+     // Current conditions    
             const currentDate = new Date(response.data.dt*1000);
             console.log(currentDate);
             const day = currentDate.getDate();
